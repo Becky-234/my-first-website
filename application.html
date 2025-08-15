@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 800;
+            font-size: xx-large;
+            font-family: 'Times New Roman';
+            color: rgb(9, 95, 123);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="main">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="comp-logo.png" width="80px" height="80px">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="company-profile.html">ABOUT US</a></li>
+                    <li><a href="portfolio.html">SERVICES</a></li>
+                    <li><a href="application.html">APPLY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <section>
+        <video autoplay muted loop id="bg-video">
+            <source src="logo-vid.mp4" type="video/mp4">
+        </video>
+        <div class="form-container">
+            <h1>APPLY HERE</h1>
+            <form id="signupform">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname">
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname">
+                <br>
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <br>
+                <label for="tel">Phone Number</label>
+                <input type="tel" id="tel">
+                <br>
+                <label>Gender</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+                <label for="pword">Create Password</label>
+                <input type="password" id="pword">
+                <br>
+                <label for="pword">Comfirm Password</label>
+                <input type="password" id="pword">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <br><br><br>
+    <footer style="background-color: black; color: white; padding: 15px 15px;">
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+
+            <div style="display: flex; min-width: 200px;">
+                <img src="comp-logo.png" alt="company logo" style="width: 100px; height: 100px;">
+                <p style="margin-top: 10px;">&copy; 2025 VogueVault</p>
+            </div>
+
+            <div style="flex: 1; min-width: 200px; text-align: center;">
+                <h4>Quick Links</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+                    <li><a href="company-profile.html" style="color: white; text-decoration: none;">About Us</a></li>
+                    <li><a href="portfolio.html" style="color: white; text-decoration: none;">Services</a></li>
+                    <li><a href="application.html" style="color: white; text-decoration: none;">Apply</a></li>
+                    <li><a href="contact.html" style="color: white; text-decoration: none;">Contact Us</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

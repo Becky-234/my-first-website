@@ -1,0 +1,222 @@
+  * {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .main {
+    width: 100%;
+    font-family: sans-serif;
+  }
+
+  .navbar {
+    background-color: #141D26;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    justify-content: space-between; 
+    display: flex;
+  }
+
+   .nav-c {
+     display: flex;
+     justify-content: space-between;
+     align-items: right;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+     text-align: left;
+  }
+
+  .logo img {
+     height: 40px;
+     width:  auto;
+     padding-left: 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+     gap: 2.5rem;
+     padding-right: 50px;
+  }
+
+   .nav-links a {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+  }
+
+  .nav-links a:hover{
+    background-color: lightblue;
+  }
+
+  .nav-links a.active {
+    background-color: slateblue;
+  }
+
+  .nav-links li {
+    margin: 0;
+  }
+
+
+
+  #middle {
+    background-color: #E2E2D2;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+  }
+
+  .mine {
+    border: 10px double grey;
+    border-radius: 10px;
+    display: block;
+    margin: auto; 
+  }
+
+  .who {
+     
+    text-align: center;
+    padding-right: 50px;
+  }
+
+  .skills {
+    text-align: center;
+    padding-right: 50px;
+  }
+
+  .awd {
+    text-align: center;
+  }
+
+  .edu {
+    padding-left: 50px;
+  }
+
+  
+
+
+  #signupform {
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #E2E2D2;
+            width: 50%;
+        }
+
+  
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: large;
+            padding-right: 6px;
+        }
+
+        input,
+        select {
+            width: 90%;
+            padding: 10px;
+            padding-right: 20px;
+            margin-top: 5px;
+        }
+
+        #bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .form-container {
+            position: relative;
+            z-index: 1;
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #E2E2D2;
+            border-radius: 10px;
+
+        }
+
+
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: #6c6666;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+
+        .profile-text {
+            color: white
+        }
+
+        .profile-text h5 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .profile-text p {
+            margin: 5px 0;
+        }
+
+
+
+        .carousel-container {
+          border-radius: 10px;
+          
+        }
+
+
+        .fa-square-whatsapp {
+            font-size: 30px;
+            color: lawngreen;
+        }
+        
+        .fa-tiktok {
+            font-size: 30px;
+            color: black;
+        }
+
+        .fa-linkedin {
+            font-size: 30px;
+            color: lightblue
+        }
+
+        .fa-youtube {
+          font-size: 30px;
+          color: red;
+        }
+
+         .fa-square-istagram {
+            font-size: 30px;
+        }
+
+
+        .fa-facebook {
+          font-size: 30px;
+          color: lightblue;
+        }
+        
+        .fa-twitter {
+          font-size: 30px;
+          color: lightblue;
+        }
+        
+
+
+
